@@ -110,8 +110,8 @@ const projects = [
       "Respuestas programadas",
       "Interfaz amigable"
     ],
-    demoUrl: "https://lab2-fund-web.vercel.app/", // Enlace directo al demo
-    githubUrl: "https://github.com/nayelisilva06/Lab2FundWeb" // Agrega el enlace al repositorio si lo tienes
+    demoUrl: "https://lab2-fund-web.vercel.app/", 
+    
   },
   {
     title: "Sistema de Reservaciones para Teatro",
