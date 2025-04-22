@@ -1,4 +1,4 @@
-# 💼 Portafolio Personal - [Tu Nombre Aquí]
+# 💼 Portafolio Personal - Nayeli
 
 Este es un portafolio web personal desarrollado con React, diseñado para mostrar mi experiencia, habilidades y proyectos. Cuenta con un diseño moderno, responsivo, y una funcionalidad de modo claro/oscuro, además de un modal de contacto funcional mediante EmailJS.
 
