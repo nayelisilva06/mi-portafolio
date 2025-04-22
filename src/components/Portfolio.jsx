@@ -4,6 +4,7 @@ import { Card, Container, Row, Col, Modal, Button, Carousel } from "react-bootst
 import proyectoactivos from "../assets/images/proyectoactivos.png";
 import iniciosesion from "../assets/images/iniciosesion.png";
 import asistentevirtual from "../assets/images/asistentevirtual.png";
+import reservacionteatro from "../assets/images/reservacionteatro.png";
 
 const PortfolioContainer = styled.section`
   padding: 6rem 2rem;
@@ -111,6 +112,17 @@ const projects = [
     ],
     demoUrl: "https://lab2-fund-web.vercel.app/", // Enlace directo al demo
     githubUrl: "https://github.com/nayelisilva06/Lab2FundWeb" // Agrega el enlace al repositorio si lo tienes
+  },
+  {
+    title: "Sistema de Reservaciones para Teatro",
+    description: "Plataforma para gestión de reservas de asientos en un teatro",
+    images: [reservacionteatro],
+    tags: ["JavaScript", "HTML"],
+    features: [
+      "Selección interactiva de asientos",
+      "Reservas en tiempo real"
+    ],
+    demoUrl: "https://examen-funda-web.vercel.app/"
   }
 
 ];
