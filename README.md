@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# 💼 Portafolio Personal - [Tu Nombre Aquí]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un portafolio web personal desarrollado con React, diseñado para mostrar mi experiencia, habilidades y proyectos. Cuenta con un diseño moderno, responsivo, y una funcionalidad de modo claro/oscuro, además de un modal de contacto funcional mediante EmailJS.
 
-## Available Scripts
+🔗 Puedes verlo en vivo aquí: https://mi-portafolio-tau-seven.vercel.app/
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologías Utilizadas
 
-### `npm test`
+- **React** – Librería principal del frontend.
+- **JavaScript (ES6+)** – Lógica del proyecto.
+- **CSS** – Estilos personalizados.
+- **Context API** – Para el manejo del modo claro/oscuro.
+- **EmailJS** – Envío de correos desde el formulario.
+- **Vercel** – Deploy del proyecto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+🎨 Funcionalidades
+Vista de presentación con mi nombre y un botón de contacto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Sección Sobre mí.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Portafolio de proyectos con imágenes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Modal de contacto con envío de mensajes por EmailJS.
 
-### `npm run eject`
+Alternancia de modo claro/oscuro.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Diseño totalmente responsivo.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Estructura del Proyecto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+MI-PORTAFOLIO/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   │       ├── iniciosesion.png
+│   │       └── proyectoactivos.png
+│   │
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── ContactModal.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Portfolio.jsx
+│   │   ├── Skills.jsx
+│   │   └── ThemeToggle.jsx
+│   │
+│   ├── context/
+│   │   └── ThemeContext.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── theme.js
+│
+├── .gitignore
+└── README.md
+---
+## 📦 Instalación local
 
-## Learn More
+Si deseas correr el proyecto localmente:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/mi-portafolio.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Entrar a la carpeta del proyecto
+cd mi-portafolio
 
-### Code Splitting
+# Instalar dependencias
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Ejecutar en localhost
+npm start
 
-### Analyzing the Bundle Size
+---
+📄 Licencia
+Este proyecto está licenciado bajo la MIT License. Puedes usarlo, modificarlo y adaptarlo con atribución.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

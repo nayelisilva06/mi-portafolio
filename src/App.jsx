@@ -6,10 +6,10 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
-import ContactModal from "./components/ContactModal"; // ✅ Asegúrate que esta ruta sea correcta
+import ContactModal from "./components/ContactModal";
 
 const App = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false); // ✅ Estado para el modal
+  const [isModalOpen, setIsModalOpen] = useState(false); 
 
   return (
     <>

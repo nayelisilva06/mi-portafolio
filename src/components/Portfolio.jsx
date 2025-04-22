@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Card, Container, Row, Col, Modal, Button, Carousel } from "react-bootstrap";
 import proyectoactivos from "../assets/images/proyectoactivos.png";
 import iniciosesion from "../assets/images/iniciosesion.png";
+import asistentevirtual from "../assets/images/asistentevirtual.png";
 
 const PortfolioContainer = styled.section`
   padding: 6rem 2rem;
@@ -68,7 +69,22 @@ const ProjectCarousel = styled(Carousel)`
     padding: 10px;
   }
 `;
-
+const OrangeButton = styled(Button).attrs({
+  className: 'mx-1'
+})`
+  && {
+    background-color: ${({ theme }) => theme.primary};
+    color: white;
+    border-color: ${({ theme }) => theme.primary};
+    
+    &:hover {
+      background-color: ${({ theme }) => theme.primary};
+      color: white;
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+  }
+`;
 const projects = [
   {
     title: "Sistema de Gestión de Activos",
@@ -76,12 +92,27 @@ const projects = [
     images: [iniciosesion, proyectoactivos],
     tags: ["React", "Node.js", "MySQL", "TypeScript"],
     features: [
-      "Registro de activos tecnológicos",
+      "Registro de activos",
       "Sistema de inventario",
       "Generación de reportes",
       "Gestión de usuarios"
     ]
   },
+  {
+    title: "Asistente Virtual",
+    description: "Asistente virtual interactivo desarrollado como proyecto académico",
+    images: [asistentevirtual], 
+    tags: ["JavaScript", "HTML5", "CSS3", "Web Speech API"],
+    features: [
+      "Reconocimiento de voz",
+      "Interacción conversacional",
+      "Respuestas programadas",
+      "Interfaz amigable"
+    ],
+    demoUrl: "https://lab2-fund-web.vercel.app/", // Enlace directo al demo
+    githubUrl: "https://github.com/nayelisilva06/Lab2FundWeb" // Agrega el enlace al repositorio si lo tienes
+  }
+
 ];
 
 const Portfolio = () => {
@@ -152,6 +183,29 @@ const Portfolio = () => {
                       </TagBadge>
                     ))}
                   </div>
+
+                  <div className="d-flex justify-content-center gap-2">
+  {project.githubUrl && (
+    <OrangeButton 
+      size="sm"
+      href={project.githubUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Código
+    </OrangeButton>
+  )}
+  {project.demoUrl && (
+    <OrangeButton 
+      size="sm"
+      href={project.demoUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Ver Demo
+    </OrangeButton>
+  )}
+</div>
                 </Card.Body>
               </StyledCard>
             </Col>

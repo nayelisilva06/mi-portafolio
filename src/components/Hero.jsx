@@ -73,7 +73,7 @@ const Hero = ({ onOpenModal }) => {
               </Col>
               <Col xs={6}>
                 <StatItem>
-                  <h4>10+</h4>
+                  <h4>5+</h4>
                   <p>Proyectos</p>
                 </StatItem>
               </Col>

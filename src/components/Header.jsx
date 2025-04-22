@@ -5,7 +5,7 @@ import ThemeToggle from "./ThemeToggle";
 const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="px-3">
-      <Navbar.Brand href="#home">Mi Portafolio</Navbar.Brand>
+      <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">

@@ -5,8 +5,10 @@ import {
   FaGraduationCap,
   FaBook,
   FaCode,
-  FaFlask
+  FaCheckCircle,
+  FaProjectDiagram
 } from "react-icons/fa";
+import { DiScrum } from "react-icons/di";
 import styled, { keyframes } from "styled-components";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -97,12 +99,12 @@ const About = () => {
   const education = [
     {
       title: "Diplomado en Programación",
-      description: "Diplomado en Programación de Aplicaciones Informáticas",
+      description: "Cuento con un Diplomado en Programación de Aplicaciones Informáticas",
       icon: <FaGraduationCap />,
     },
     {
       title: "Ingeniería en Sistemas",
-      description: "Cursando último año de bachillerato en la Universidad Nacional de Costa Rica",
+      description: "Cursando mi último año de bachillerato en la Universidad Nacional de Costa Rica",
       icon: <FaLaptopCode />,
     },
     {
@@ -114,16 +116,27 @@ const About = () => {
 
   const experience = [
     {
-      title: "Desarrollo de Proyectos Académicos",
-      description: "Creación de sistemas completos para cursos universitarios usando tecnologías como React, Node.js y MySQL",
-      icon: <FaCode />,
+      title: "Gestión de Activos (Proyecto Universitario)",
+      description: "Desarrollo colaborativo del sistema incluyendo: implementación, pruebas QA y despliegue. Realizando pruebas manuales y reporte de bugs",
+      icon: <FaProjectDiagram />,
     },
     {
-      title: "Proyectos Personales",
-      description: "Desarrollo de aplicaciones web y móviles para practicar y mejorar mis habilidades técnicas",
-      icon: <FaFlask />,
+      title: "Scrum Master",
+      description: "Liderando el equipo de manera ágil en diferentes sprint del proyecto de Gestión de Activos, facilitando sprint plannings, daily stand-ups, sprint reviews y retrospectivas",
+      icon: <DiScrum />,
+    },
+    {
+      title: "Control de Calidad",
+      description: "Implementé procesos de QA para el sistema de gestión, incluyendo pruebas de usabilidad y documentación de casos de prueba",
+      icon: <FaCheckCircle />,
+    },
+    {
+      title: "Proyectos Académicos",
+      description: "Desarrollo de sistemas web usando React, Node.js y MySQL, aplicando metodologías ágiles",
+      icon: <FaCode />,
     },
   ];
+
 
   return (
     <Container id="about" className="py-5">
