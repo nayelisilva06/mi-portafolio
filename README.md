@@ -33,40 +33,6 @@ Alternancia de modo claro/oscuro.
 Diseño totalmente responsivo.
 
 ---
-
-## 📁 Estructura del Proyecto
-
-MI-PORTAFOLIO/
-│
-├── public/
-│   └── index.html
-│
-├── src/
-│   ├── assets/
-│   │   └── images/
-│   │       ├── iniciosesion.png
-│   │       └── proyectoactivos.png
-│   │
-│   ├── components/
-│   │   ├── About.jsx
-│   │   ├── ContactModal.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Portfolio.jsx
-│   │   ├── Skills.jsx
-│   │   └── ThemeToggle.jsx
-│   │
-│   ├── context/
-│   │   └── ThemeContext.jsx
-│   │
-│   ├── App.jsx
-│   ├── index.jsx
-│   └── theme.js
-│
-├── .gitignore
-└── README.md
----
 ## 📦 Instalación local
 
 Si deseas correr el proyecto localmente:
