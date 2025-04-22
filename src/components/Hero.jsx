@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { FiMail } from "react-icons/fi"; // Ícono de sobre (Mail)
+import { FiMail } from "react-icons/fi"; 
 
 const fadeIn = keyframes`
   from {

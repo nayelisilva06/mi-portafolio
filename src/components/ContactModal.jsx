@@ -136,7 +136,7 @@ const ContactModal = ({ isOpen, onClose }) => {
       const { name, value } = e.target;
       setFormData((prev) => ({ ...prev, [name]: value }));
   
-      // Validación en tiempo real 
+     
       setErrors((prev) => ({
         ...prev,
         [name]: "",
