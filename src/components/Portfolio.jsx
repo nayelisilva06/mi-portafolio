@@ -102,7 +102,7 @@ const projects = [
   {
     title: "Asistente Virtual",
     description: "Asistente virtual interactivo desarrollado como proyecto académico",
-    images: [asistentevirtual], 
+    images: [asistentevirtual, asistentevirtual], 
     tags: ["JavaScript", "HTML5", "CSS3", "Web Speech API"],
     features: [
       "Reconocimiento de voz",
@@ -116,7 +116,7 @@ const projects = [
   {
     title: "Sistema de Reservaciones para Teatro",
     description: "Plataforma para gestión de reservas de asientos en un teatro",
-    images: [reservacionteatro],
+    images: [reservacionteatro,reservacionteatro],
     tags: ["JavaScript", "HTML"],
     features: [
       "Selección interactiva de asientos",
