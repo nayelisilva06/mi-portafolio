@@ -67,7 +67,7 @@ const Hero = ({ onOpenModal }) => {
             <Row className="mt-4">
               <Col xs={6}>
                 <StatItem>
-                  <h4>6 años</h4>
+                  <h4>+4 años</h4>
                   <p>Estudios</p>
                 </StatItem>
               </Col>
