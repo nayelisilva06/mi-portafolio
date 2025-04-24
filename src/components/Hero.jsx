@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { FiMail, FiGithub, FiLinkedin} from "react-icons/fi"; 
+import { FiMail} from "react-icons/fi"; 
 
 const fadeIn = keyframes`
   from {
@@ -48,21 +48,6 @@ const StyledButton = styled(Button)`
 
   &:hover {
     background-color: #ff914d;
-  }
-`;
-const SocialLinks = styled.div`
-  margin-top: 1.5rem;
-  display: flex;
-  gap: 1.2rem;
-
-  a {
-    color: #ff7b29;
-    font-size: 1.8rem;
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: #ff914d;
-    }
   }
 `;
 
