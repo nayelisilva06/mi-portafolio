@@ -4,8 +4,6 @@ Este es un portafolio web personal desarrollado con React, diseñado para mostra
 
 🔗 Puedes verlo en vivo aquí: https://mi-portafolio-tau-seven.vercel.app/
 
-
-
 ---
 
 ## 🛠️ Tecnologías Utilizadas
@@ -18,19 +16,13 @@ Este es un portafolio web personal desarrollado con React, diseñado para mostra
 - **Vercel** – Deploy del proyecto.
 
 ---
-
-🎨 Funcionalidades
-Vista de presentación con mi nombre y un botón de contacto.
-
-Sección Sobre mí.
-
-Portafolio de proyectos con imágenes.
-
-Modal de contacto con envío de mensajes por EmailJS.
-
-Alternancia de modo claro/oscuro.
-
-Diseño totalmente responsivo.
+## ✨ Características
+- 🌗 Modo claro/oscuro con Context API
+- 📱 Diseño completamente responsivo
+- ✨ Animaciones suaves con CSS
+- 📨 Formulario de contacto tipo modal conectado con EmailJS
+- 📸 Galería de proyectos con imágenes reales 
+- 🧠 Información académica y habilidades técnicas
 
 ---
 ## 📦 Instalación local
@@ -39,7 +31,7 @@ Si deseas correr el proyecto localmente:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/mi-portafolio.git
+git clone https://github.com/nayelisilva06/mi-portafolio.git
 
 # Entrar a la carpeta del proyecto
 cd mi-portafolio
