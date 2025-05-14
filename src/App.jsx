@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import ContactModal from "./components/ContactModal";
 
+
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); 
 

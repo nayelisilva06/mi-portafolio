@@ -15,7 +15,7 @@ const ToggleButton = styled(motion.button)`
   color: ${({ theme }) => theme.text};
   transition: all 0.3s ease;
   position: fixed;
-  top: 80px;  /* Ajustamos la posición para que esté debajo del header */
+  top: 80px;  
   right: 20px;
   z-index: 1000;
 
