@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import proyectoactivos from "../assets/images/proyectoactivos.png";
 import iniciosesion from "../assets/images/iniciosesion.png";
 import asistentevirtual from "../assets/images/asistentevirtual.png";
-import reservacionteatro from "../assets/images/reservacionteatro.png";
+import foodiet from "../assets/images/foodiet.png";
 import {PortfolioContainer, StyledCard, ProjectImageContainer, ProjectImage, TagBadge, ProjectCarousel, OrangeButton} from "../assets/styles/Portfolio.styles";
 
 
@@ -18,9 +18,21 @@ const projects = [
       "Registro de activos",
       "Sistema de inventario",
       "Generación de reportes",
-      "Gestión de usuarios"
+      "Exportación de datos a Excel"
     ]
   },
+   {
+    title: "Diseño de aplicativo para planificación de dietas",
+    description: "Enfoque en alimentación saludable y balanceada, con opciones de personalización",
+    images: [foodiet],
+    tags: ["Figma", "UI/UX", "Prototipado"],
+    features: [
+      "Interacción con el usuario",
+      "Interfaz amigable"
+      
+    ],
+  },
+  
   {
     title: "Asistente Virtual",
     description: "Asistente virtual interactivo desarrollado como proyecto académico",
@@ -29,24 +41,12 @@ const projects = [
     features: [
       "Reconocimiento de voz",
       "Interacción conversacional",
-      "Respuestas programadas",
-      "Interfaz amigable"
+      "Respuestas programadas"
     ],
     demoUrl: "https://lab2-fund-web.vercel.app/", 
     
   },
-  {
-    title: "Sistema de Reservaciones para Teatro",
-    description: "Plataforma para gestión de reservas de asientos en un teatro",
-    images: [reservacionteatro],
-    tags: ["JavaScript", "HTML"],
-    features: [
-      "Selección interactiva de asientos",
-      "Reservas en tiempo real"
-    ],
-    demoUrl: "https://examen-funda-web.vercel.app/"
-  }
-
+ 
 ];
 
 const Portfolio = () => {
